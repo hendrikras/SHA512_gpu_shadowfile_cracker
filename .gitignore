@@ -1,0 +1,45 @@
+# Rust
+/target/
+**/*.rs.bk
+*.pdb
+
+# Cargo
+Cargo.lock
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Test files
+*.shadow
+*.txt
+test_*
+
+# Build artifacts
+*.o
+*.so
+*.dylib
+*.dll
+*.exe
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# Project specific
+wordlist/
+hashes/
+results/
